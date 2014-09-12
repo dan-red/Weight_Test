@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/table_button"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="Table view"
+        android:showAsAction="ifRoom|withText" >
+    </item>
+
+    <item android:id="@+id/reset_button"
+        android:icon="@android:drawable/ic_popup_sync"
+        android:title="Reset"
+        android:showAsAction="ifRoom|withText" >
+    </item>
+
+    <item
+        android:id="@+id/settings_button"
+        android:title="Settings"
+        android:showAsAction="never" >
+    </item>
+
+    <item
+        android:id="@+id/sync_button"
+        android:title="Sync"
+        android:showAsAction="never" >
+    </item>
+
+    <item
+        android:id="@+id/text_update_button"
+        android:title="Text update"
+        android:showAsAction="never" >
+    </item>
+
+    <item
+        android:id="@+id/manual_entry_button"
+        android:title="Manual entry"
+        android:showAsAction="never" >
+    </item>
+
+</menu>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <TextView
+        android:id="@+id/manual_entry_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter manual data into database"
+        />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Select date:" />
+        
+        <DatePicker
+            android:id="@+id/manual_entry_date_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:calendarViewShown="false"
+            android:focusable="true"
+            android:gravity="center_vertical" />
+        
+    </LinearLayout>
+    
+    <EditText
+        android:id="@+id/manual_entry_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter weight in lbs"
+        />
+
+    <EditText
+        android:id="@+id/manual_entry_fat_mass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter fat mass in lbs" />
+
+    <EditText
+        android:id="@+id/manual_entry_lean_mass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter lean mass in lbs" />
+
+    <Button
+        android:id="@+id/manual_entry_submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Put entry in database" />
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WeightTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="query">Enter SQLite query</string>
+    <string name="welcome">Welcome to WeightTest!</string>
+    <string name="enter_button">Enter</string>
+    <string name="last_weight">Last known weight:</string>
+    <string name="date">Date:</string>
+
+</resources>
